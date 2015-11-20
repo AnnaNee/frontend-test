@@ -6,7 +6,7 @@ body {
 		font-family: helvetica, sans-serif;
 }
 
-h1 {
+h1, h2 {
 		color: #01C690;
 		font-family: Alef, sans-serif;
 
@@ -83,6 +83,11 @@ h1 {
 
 .slick-dots li.slick-active button:before {
 		color: #01C690;
+}
+
+.slider-caption {
+		position: absolute;
+		bottom: 20px;
 }
 
 /* Body cols */
