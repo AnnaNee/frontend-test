@@ -4,3 +4,59 @@ body {
 		border-top: 10px solid #01C690;
 		background-color: #0E2C37;
 }
+
+.container {
+		width: 970px;
+		margin: 20px auto;
+}
+
+/* Navbar */
+.navbar {
+		text-align: center;
+		font-family: Alef, sans-serif;
+}
+.navbar ul {
+		list-style-type: none;
+		padding: 0;
+		display: table-row;
+}
+
+.navbar ul li {
+		display: table-cell;
+		vertical-align: middle;
+}
+
+.navbar ul .item {
+}
+
+.navbar ul li a {
+		background-color: #07232e;
+    color: #01c690;
+    display: inline-table;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 17px;
+    text-align: left;
+    text-decoration: none;
+    width: 110px;
+		margin: 0 15px
+}
+
+.navbar ul li a:hover {
+		background-color: #01C690;
+		color: #07232e;
+}
+
+/* Call to action */
+.call-to-action {
+		color: #01C690;
+		font-family: Alef, sans-serif;
+		font-size: 43px;
+		font-weight: lighter;
+}
+
+.call-to-action small {
+		font-style: italic;
+		font-size: 23px;
+}
