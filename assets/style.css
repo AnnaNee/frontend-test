@@ -10,6 +10,10 @@ body {
 		margin: 20px auto;
 }
 
+.inner {
+		padding: 0 15px;
+}
+
 /* Navbar */
 .navbar {
 		text-align: center;
@@ -60,3 +64,18 @@ body {
 		font-style: italic;
 		font-size: 23px;
 }
+
+/* Slider */
+.slick-arrow, .slick-next {
+		display: none !important;
+}
+
+.slick-dots li button:before {
+		font-size: 20px;
+		color: 00000b;
+}
+
+.slick-dots li.slick-active button:before {
+		color: #01C690;
+}
+
