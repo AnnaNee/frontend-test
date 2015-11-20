@@ -86,8 +86,13 @@ h1, h2 {
 }
 
 .slider-caption {
-		position: absolute;
-		bottom: 20px;
+    background: none repeat scroll 0 0 rgba(0, 54, 54, 0.7);
+    bottom: 0;
+    height: 65px;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    width: 940px;
 }
 
 /* Body cols */
